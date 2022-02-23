@@ -1,0 +1,35 @@
+*{
+    margin:0;   
+}
+.app{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:80vh;
+    width:100%
+}
+.buttons{
+    display:flex;
+    width:50%;
+    justify-content: space-around;
+}
+.score{
+    font-size:7rem;
+}
+button{
+    color:white;
+    outline:none;
+    border:none;
+    height:150px;
+    width:150Px;
+    font-size:100PX;
+    border-radius:30px;
+    background-color: black;
+}
