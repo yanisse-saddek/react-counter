@@ -12,7 +12,7 @@ export class Count extends React.Component{
                     <p class="score">{this.props.count}</p>
                     <div className="buttons">
                     <button onClick={this.props.count !== 0 ?this.props.substractFunction : " "}>-</button>
-                    <button onClick={this.props.count <= 100? this.props.addFunction: ' '}>+</button>
+                    <button onClick={this.props.count <= 99? this.props.addFunction: ' '}>+</button>
                     </div>
                 </div>
             </div>
